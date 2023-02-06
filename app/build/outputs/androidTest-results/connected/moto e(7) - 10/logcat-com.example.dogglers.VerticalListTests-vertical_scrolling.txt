@@ -1,0 +1,245 @@
+02-06 15:12:15.777 11877 11910 I TestRunner: started: vertical_scrolling(com.example.dogglers.VerticalListTests)
+02-06 15:12:15.786   619   836 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:59.513531,dur:1008.17,max:19.27,min:14.38
+02-06 15:12:15.795 11877 11910 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+02-06 15:12:15.815   636   688 I power@1.3-impl: powerHintInternal hint:8, data:1
+02-06 15:12:15.816   636   687 I libPowerHal: 8: cpu_ctrl set freq: 2001000 -1 1500000 -1
+02-06 15:12:15.818  1218  1762 D PowerHalWrapper: <amsBoostResume> last:com.motorola.launcher3, next:com.example.dogglers
+02-06 15:12:15.826 11877 11877 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@d772d50
+02-06 15:12:15.826  1218  1236 D ViewRootImpl[dogglers]: hardware acceleration = false , fakeHwAccelerated = true, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+02-06 15:12:15.831 11877 11948 D libMEOW : applied 1 plugins for [com.example.dogglers]:
+02-06 15:12:15.831 11877 11948 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+02-06 15:12:15.834  1218  2447 D PowerHalWrapper: amsBoostNotify pid:11877,activity:androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, package:com.example.dogglers, mProcessCreatePackcom.example.dogglers
+02-06 15:12:15.835   636   687 I libPowerHal: [perfNotifyAppState] foreground:com.example.dogglers, pid:11877, uid:10204
+02-06 15:12:15.835   636   687 I UxUtility: notifyForegroundApp pack:com.example.dogglers, uid:10204
+02-06 15:12:15.835   636   687 I powerd  : [powerd_req] POWER_MSG_NOTIFY_STATE, pc:0, com.motorola.launcher3 => com.example.dogglers
+02-06 15:12:15.841  1218  1236 I InputTransport: Create ARC handle: 0x6c6c54e0
+02-06 15:12:15.846 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49 in: PRE_ON_CREATE
+02-06 15:12:15.847 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49
+02-06 15:12:15.849   656  1008 I BufferQueue: [unnamed-656-3115](this:0xb0cc4000,id:3115,api:0,p:-1,c:-1) BufferQueue core=(656:/system/bin/surfaceflinger)
+02-06 15:12:15.849   656  1008 I BufferQueueConsumer: [unnamed-656-3115](this:0xb0cc4000,id:3115,api:0,p:-1,c:656) connect(C): consumer=(656:/system/bin/surfaceflinger) controlledByApp=false
+02-06 15:12:15.849   656  1008 I BufferQueueConsumer: [unnamed-656-3115](this:0xb0cc4000,id:3115,api:0,p:-1,c:656) setConsumerName: unnamed-656-3115
+02-06 15:12:15.849   656  1008 I BufferQueueConsumer: [Splash Screen com.example.dogglers#0](this:0xb0cc4000,id:3115,api:0,p:-1,c:656) setConsumerName: Splash Screen com.example.dogglers#0
+02-06 15:12:15.849   656  1008 I BufferQueueConsumer: [Splash Screen com.example.dogglers#0](this:0xb0cc4000,id:3115,api:0,p:-1,c:656) setDefaultBufferSize: width=720 height=1600
+02-06 15:12:15.853  1218  1236 D Surface : lockCanvas
+02-06 15:12:15.854  1218  1236 D Surface : Surface::connect(this=0x76bbe000,api=2)
+02-06 15:12:15.854   656  1008 I BufferQueueProducer: [Splash Screen com.example.dogglers#0](this:0xb0cc4000,id:3115,api:2,p:1218,c:656) connect(P): api=2 producer=(1218:system_server) producerControlledByApp=false
+02-06 15:12:15.866 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49 in: CREATED
+02-06 15:12:15.867 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49
+02-06 15:12:15.879 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49 in: STARTED
+02-06 15:12:15.880 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49
+02-06 15:12:15.885   636   688 I power@1.3-impl: powerHintInternal hint:8, data:1
+02-06 15:12:15.887 22902 26319 D Surface : Surface::disconnect(this=0x76b28000,api=1)
+02-06 15:12:15.887  1674  2944 D Surface : Surface::disconnect(this=0x7ff5c800,api=1)
+02-06 15:12:15.888   656  1011 I BufferQueueProducer: [com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#0](this:0xadf25000,id:3113,api:1,p:22902,c:656) disconnect(P): api 1
+02-06 15:12:15.888   656  1976 I BufferQueueProducer: [com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1](this:0xb0ca3000,id:3114,api:1,p:1674,c:656) disconnect(P): api 1
+02-06 15:12:15.888  1218  1762 D PowerHalWrapper: <amsBoostResume> last:com.example.dogglers, next:com.example.dogglers
+02-06 15:12:15.893 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49 in: RESUMED
+02-06 15:12:15.894 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49
+02-06 15:12:15.903 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49 in: PAUSED
+02-06 15:12:15.904 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49
+02-06 15:12:15.909  1218  3013 D PowerHalWrapper: amsBoostNotify pid:11877,activity:com.example.dogglers.VerticalListActivity, package:com.example.dogglers, mProcessCreatePackcom.example.dogglers
+02-06 15:12:15.916 11877 11877 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@19df16f
+02-06 15:12:15.918 11877 11949 D libMEOW : applied 1 plugins for [com.example.dogglers]:
+02-06 15:12:15.918 11877 11949 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+02-06 15:12:15.926  2707  2707 I GsaVoiceInteractionSrv: Handling ACTION_STOP_HOTWORD
+02-06 15:12:15.930  1674  1674 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@9138194, this = DecorView@6fa4901[CustomizationPanelLauncher]
+02-06 15:12:15.937 11877 11877 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@742358b in: PRE_ON_CREATE
+02-06 15:12:15.938 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+02-06 15:12:15.943   730   851 D AAL     : 02-06 03:12:15.742 BL= 178,ESS= 256, 02-06 03:12:15.792 BL= 179,ESS= 256, 02-06 03:12:15.827 BL= 180,ESS= 256, 02-06 03:12:15.860 BL= 181,ESS= 256, 02-06 03:12:15.943 BL= 180,ESS= 256,
+02-06 15:12:15.952   656   656 I BufferQueue: [com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#1](this:0xb0ca3000,id:3114,api:1,p:-1,c:-1) ~BufferQueueCore
+02-06 15:12:15.953   656   656 I BufferQueue: [com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#0](this:0xadf25000,id:3113,api:1,p:-1,c:-1) ~BufferQueueCore
+02-06 15:12:16.001 11877 11877 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@742358b in: CREATED
+02-06 15:12:16.001 11877 11877 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.dogglers.VerticalListActivity@742358b
+02-06 15:12:16.006 11877 11877 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@742358b in: STARTED
+02-06 15:12:16.007 11877 11877 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.dogglers.VerticalListActivity@742358b
+02-06 15:12:16.010 11877 11877 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@742358b in: RESUMED
+02-06 15:12:16.011 11877 11877 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.dogglers.VerticalListActivity@742358b
+02-06 15:12:16.013 11877 11877 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@290d34f[]
+02-06 15:12:16.018 11877 11877 D ViewRootImpl[VerticalListActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+02-06 15:12:16.025 11877 11877 I InputTransport: Create ARC handle: 0x9fe50b40
+02-06 15:12:16.025 11877 11951 D libMEOW_gift: etEventThreadFunc()::thread Begin. eventRefCnt: 1
+02-06 15:12:16.025 11877 11877 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@2a92ba, this = DecorView@290d34f[VerticalListActivity]
+02-06 15:12:16.048   656  1825 I BufferQueue: [unnamed-656-3116](this:0xadf56000,id:3116,api:0,p:-1,c:-1) BufferQueue core=(656:/system/bin/surfaceflinger)
+02-06 15:12:16.048   656  1825 I BufferQueueConsumer: [unnamed-656-3116](this:0xadf56000,id:3116,api:0,p:-1,c:656) connect(C): consumer=(656:/system/bin/surfaceflinger) controlledByApp=false
+02-06 15:12:16.048   656  1825 I BufferQueueConsumer: [unnamed-656-3116](this:0xadf56000,id:3116,api:0,p:-1,c:656) setConsumerName: unnamed-656-3116
+02-06 15:12:16.048   656  1825 I BufferQueueConsumer: [com.example.dogglers/com.example.dogglers.VerticalListActivity#0](this:0xadf56000,id:3116,api:0,p:-1,c:656) setConsumerName: com.example.dogglers/com.example.dogglers.VerticalListActivity#0
+02-06 15:12:16.048   656  1825 I BufferQueueConsumer: [com.example.dogglers/com.example.dogglers.VerticalListActivity#0](this:0xadf56000,id:3116,api:0,p:-1,c:656) setDefaultBufferSize: width=720 height=1600
+02-06 15:12:16.050  1218  3013 I WindowManager: ***** PhoneWindowManager, focusChangedLw, newFocus=Token{a1a61c5 ActivityRecord{dfd103c u0 com.example.dogglers/.VerticalListActivity t900}}
+02-06 15:12:16.056 11877 11912 D Surface : Surface::connect(this=0x912ad000,api=1)
+02-06 15:12:16.057   656  1825 I BufferQueueProducer: [com.example.dogglers/com.example.dogglers.VerticalListActivity#0](this:0xadf56000,id:3116,api:1,p:11877,c:656) connect(P): api=1 producer=(11877:com.example.dogglers) producerControlledByApp=false
+02-06 15:12:16.058 11877 11912 D Surface : Surface::setBufferCount(this=0x912ad000,bufferCount=3)
+02-06 15:12:16.058 11877 11912 D Surface : Surface::allocateBuffers(this=0x912ad000)
+02-06 15:12:16.064  1218  1329 E WifiVendorHal: getWifiLinkLayerStats_1_3_Internal(l.927) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+02-06 15:12:16.109   725   725 I thermal_repeater: [recvMdThermalInfo] ret=29, strLen=127,  3, 40, -50, -28407, 32767, 0
+02-06 15:12:16.130   730   851 D AAL     : 02-06 03:12:15.978 BL= 179,ESS= 256, 02-06 03:12:16.011 BL= 178,ESS= 256, 02-06 03:12:16.061 BL= 177,ESS= 256, 02-06 03:12:16.095 BL= 176,ESS= 256, 02-06 03:12:16.130 BL= 175,ESS= 256,
+02-06 15:12:16.231  1218  1226 I system_server: NativeAlloc concurrent copying GC freed 88786(4770KB) AllocSpace objects, 14(408KB) LOS objects, 14% free, 34MB/40MB, paused 235us total 435.897ms
+02-06 15:12:16.255  1218  1236 D View    : [Warning] assignParent to null: this = DecorView@d4d6b79[dogglers]
+02-06 15:12:16.258  1218  1236 D Surface : Surface::disconnect(this=0x76bbe000,api=2)
+02-06 15:12:16.258   656  1258 I BufferQueueProducer: [Splash Screen com.example.dogglers#0](this:0xb0cc4000,id:3115,api:2,p:1218,c:656) disconnect(P): api 2
+02-06 15:12:16.259  1218  1236 I InputTransport: Destroy ARC handle: 0x6c6c54e0
+02-06 15:12:16.259  1218  1240 I ActivityTaskManager: Displayed com.example.dogglers/.VerticalListActivity: +445ms
+02-06 15:12:16.265  1218 22909 I GED     : ged_boost_gpu_freq, level 100, eOrigin 2, final_idx 2, oppidx_max 2, oppidx_min 0
+02-06 15:12:16.275   656  1011 I BufferQueueProducer: [NavigationBar0#0](this:0xadf6f000,id:2921,api:1,p:528,c:656) queueBuffer: fps=38.66 dur=1008.92 max=373.01 min=8.88
+02-06 15:12:16.284  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+02-06 15:12:16.285  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+02-06 15:12:16.285  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+02-06 15:12:16.285  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+02-06 15:12:16.285  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+02-06 15:12:16.295 11877 11877 I ViewInteraction: Performing 'fast swipe' action on view view.getId() is <2131231206/com.example.dogglers:id/vertical_recycler_view>
+02-06 15:12:16.303  1218  1316 V InputDispatcher: Asynchronous input event injection succeeded.
+02-06 15:12:16.304   636   688 I power@1.3-impl: powerHintInternal hint:8, data:0
+02-06 15:12:16.305  1218  3902 D PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:true, AMS_BOOST_ACT_SWITCH:true, AMS_BOOST_PROCESS_CREATE:false
+02-06 15:12:16.306  1218  3902 D PowerHalWrapper: amsBoostStop AMS_BOOST_PACK_SWITCH:false, AMS_BOOST_ACT_SWITCH:false, AMS_BOOST_PROCESS_CREATE:false
+02-06 15:12:16.308   636   687 I libPowerHal: 33: cpu_ctrl set freq: -1 -1 -1 -1
+02-06 15:12:16.311 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49 in: STOPPED
+02-06 15:12:16.313 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49
+02-06 15:12:16.316  1218  1316 V InputDispatcher: Asynchronous input event injection succeeded.
+02-06 15:12:16.331   730   851 D AAL     : 02-06 03:12:16.179 BL= 174,ESS= 256, 02-06 03:12:16.213 BL= 173,ESS= 256, 02-06 03:12:16.263 BL= 172,ESS= 256, 02-06 03:12:16.298 BL= 171,ESS= 256, 02-06 03:12:16.331 BL= 170,ESS= 256,
+02-06 15:12:16.332  1218  1316 V InputDispatcher: Asynchronous input event injection succeeded.
+02-06 15:12:16.340   698   698 I ADB_SERVICES: service_to_fd exec:ps -A -o PID,NAME
+02-06 15:12:16.347  1218  1316 V InputDispatcher: Asynchronous input event injection succeeded.
+02-06 15:12:16.421  1218  1316 I chatty  : uid=1000(system) InputDispatcher identical 5 lines
+02-06 15:12:16.437  1218  1316 V InputDispatcher: Asynchronous input event injection succeeded.
+02-06 15:12:16.442   656   656 I BufferQueue: [Splash Screen com.example.dogglers#0](this:0xb0cc4000,id:3115,api:2,p:-1,c:-1) ~BufferQueueCore
+02-06 15:12:16.452  1218  1316 V InputDispatcher: Asynchronous input event injection succeeded.
+02-06 15:12:16.504   698 11954 I ADB_SERVICES: post waitpid (pid=11953) status=0000
+02-06 15:12:16.517   730   851 D AAL     : 02-06 03:12:16.347 BL= 171,ESS= 256, 02-06 03:12:16.466 BL= 172,ESS= 256, 02-06 03:12:16.482 BL= 173,ESS= 256, 02-06 03:12:16.499 BL= 174,ESS= 256, 02-06 03:12:16.517 BL= 175,ESS= 256,
+02-06 15:12:16.634 11877 11910 W xample.doggler: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+02-06 15:12:16.634 11877 11927 W xample.doggler: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+02-06 15:12:16.640 11877 11877 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Faye"
+02-06 15:12:16.650   636   688 I power@1.3-impl: powerHintInternal hint:8, data:1
+02-06 15:12:16.651   636   687 I libPowerHal: 8: cpu_ctrl set freq: 2001000 -1 1500000 -1
+02-06 15:12:16.653  1218  3902 D PowerHalWrapper: <amsBoostResume> last:com.example.dogglers, next:com.example.dogglers
+02-06 15:12:16.657 11877 11877 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@742358b in: PAUSED
+02-06 15:12:16.658 11877 11877 V ActivityScenario: Update currentActivityStage to PAUSED, currentActivity=com.example.dogglers.VerticalListActivity@742358b
+02-06 15:12:16.664  1218  3013 D PowerHalWrapper: amsBoostNotify pid:11877,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.dogglers, mProcessCreatePackcom.example.dogglers
+02-06 15:12:16.670 11877 11877 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@b9728c4
+02-06 15:12:16.673 11877 11956 D libMEOW : applied 1 plugins for [com.example.dogglers]:
+02-06 15:12:16.673 11877 11956 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+02-06 15:12:16.679 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad in: PRE_ON_CREATE
+02-06 15:12:16.680 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad
+02-06 15:12:16.692 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad in: CREATED
+02-06 15:12:16.693 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad
+02-06 15:12:16.697 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad in: STARTED
+02-06 15:12:16.698 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad
+02-06 15:12:16.701 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad in: RESUMED
+02-06 15:12:16.701   730   851 D AAL     : 02-06 03:12:16.533 BL= 176,ESS= 256, 02-06 03:12:16.583 BL= 177,ESS= 256, 02-06 03:12:16.617 BL= 178,ESS= 256, 02-06 03:12:16.650 BL= 179,ESS= 256, 02-06 03:12:16.701 BL= 180,ESS= 256,
+02-06 15:12:16.702 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad
+02-06 15:12:16.703 11877 11877 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@287ea73[]
+02-06 15:12:16.708 11877 11877 D ViewRootImpl[InstrumentationActivityInvoker$EmptyActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+02-06 15:12:16.713 11877 11877 I InputTransport: Create ARC handle: 0x7ff94000
+02-06 15:12:16.714 11877 11877 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@b705f2e, this = DecorView@287ea73[InstrumentationActivityInvoker$EmptyActivity]
+02-06 15:12:16.728   656  1008 I BufferQueue: [unnamed-656-3117](this:0xb0cd2000,id:3117,api:0,p:-1,c:-1) BufferQueue core=(656:/system/bin/surfaceflinger)
+02-06 15:12:16.728   656  1008 I BufferQueueConsumer: [unnamed-656-3117](this:0xb0cd2000,id:3117,api:0,p:-1,c:656) connect(C): consumer=(656:/system/bin/surfaceflinger) controlledByApp=false
+02-06 15:12:16.728   656  1008 I BufferQueueConsumer: [unnamed-656-3117](this:0xb0cd2000,id:3117,api:0,p:-1,c:656) setConsumerName: unnamed-656-3117
+02-06 15:12:16.728   656  1008 I BufferQueueConsumer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](this:0xb0cd2000,id:3117,api:0,p:-1,c:656) setConsumerName: com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0
+02-06 15:12:16.728   656  1008 I BufferQueueConsumer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](this:0xb0cd2000,id:3117,api:0,p:-1,c:656) setDefaultBufferSize: width=720 height=1600
+02-06 15:12:16.729   528   659 D NetworkController.MobileSignalController(1)(0): onSignalStrengthsChanged signalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=-118 rsrq=-10 rssnr=47 cqi=0 ta=0 level=2,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 level = 0 },primary=CellSignalStrengthLte}, phoneId=0, mMtkLevel=-1, mMtkRsrpOnly=true, mMtkLteRsrpThreshold=null, mMtkLteRssnrThreshold=null level=2
+02-06 15:12:16.730  1218  3902 I WindowManager: ***** PhoneWindowManager, focusChangedLw, newFocus=Token{cc37fb3 ActivityRecord{e2d5922 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t900}}
+02-06 15:12:16.731   528   659 D NetworkController.MobileSignalController(1)(0): updateTelephony(), level_tmp = 1, mCurrentState.level = 2
+02-06 15:12:16.731   528   659 D NetworkController.MobileSignalController(1)(0): mapIconsByMccncc
+02-06 15:12:16.732   528   659 D NetworkController.MobileSignalController(1)(0): matchCards mccMnc: 72402
+02-06 15:12:16.733   528   659 D NetworkController.MobileSignalController(1)(0): matchCards mccMnc: 72402
+02-06 15:12:16.734   528   659 D NetworkController.MobileSignalController(1)(0): matchSimMcc mccMnc: 72402, mcc = 260
+02-06 15:12:16.735 11877 11912 D Surface : Surface::connect(this=0x80114000,api=1)
+02-06 15:12:16.735   528   659 D NetworkController.MobileSignalController(1)(0): matchCards mccMnc: 72402
+02-06 15:12:16.735   656  1976 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](this:0xb0cd2000,id:3117,api:1,p:11877,c:656) connect(P): api=1 producer=(11877:com.example.dogglers) producerControlledByApp=false
+02-06 15:12:16.736   528   659 D NetworkController.MobileSignalController(1)(0): matchCards isNullMccNcc: 72402
+02-06 15:12:16.736 11877 11912 D Surface : Surface::setBufferCount(this=0x80114000,bufferCount=3)
+02-06 15:12:16.737 11877 11912 D Surface : Surface::allocateBuffers(this=0x80114000)
+02-06 15:12:16.738   528   659 D NetworkController.MobileSignalController(1)(0): isDataDisabled = true
+02-06 15:12:16.740   528   659 D NetworkTypeUtils: nrState = -1
+02-06 15:12:16.749   528   528 W SysUiBg : type=1400 audit(0.0:125185): avc: denied { read } for name="u:object_r:mtk_telephony_sensitive_prop:s0" dev="tmpfs" ino=11174 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:mtk_telephony_sensitive_prop:s0 tclass=file permissive=0
+02-06 15:12:16.759   528   659 E libc    : Access denied finding property "vendor.ril.iccid.sim1"
+02-06 15:12:16.759   528   659 D NetworkController.MobileSignalController(1)(0): ims = 0, mDisableWfc = false, imsRegState = 0, volteSwitch = true
+02-06 15:12:16.761   528   659 D NetworkController.MobileSignalController(1)(0): this is volte
+02-06 15:12:16.763   528   659 D NetworkController.MobileSignalController(1)(0): matchCards isNullMccNcc: 72402
+02-06 15:12:16.765  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+02-06 15:12:16.767  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+02-06 15:12:16.767  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+02-06 15:12:16.767  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+02-06 15:12:16.769  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+02-06 15:12:16.771 11877 11912 D Surface : Surface::disconnect(this=0x912ad000,api=1)
+02-06 15:12:16.771   656  1258 I BufferQueueProducer: [com.example.dogglers/com.example.dogglers.VerticalListActivity#0](this:0xadf56000,id:3116,api:1,p:11877,c:656) disconnect(P): api 1
+02-06 15:12:16.773   636   688 I power@1.3-impl: powerHintInternal hint:8, data:1
+02-06 15:12:16.769   528   528 W SysUiBg : type=1400 audit(0.0:125186): avc: denied { read } for name="u:object_r:mtk_telephony_sensitive_prop:s0" dev="tmpfs" ino=11174 scontext=u:r:platform_app:s0:c512,c768 tcontext=u:object_r:mtk_telephony_sensitive_prop:s0 tclass=file permissive=0
+02-06 15:12:16.784   528   659 E libc    : Access denied finding property "vendor.ril.iccid.sim1"
+02-06 15:12:16.785   528   659 D NetworkController.MobileSignalController(1)(0): matchCards mccMnc: 72402
+02-06 15:12:16.786   528   659 D NetworkController.MobileSignalController(1)(0): matchCards mccMnc: 72402
+02-06 15:12:16.786   528   659 D NetworkController.MobileSignalController(1)(0): enter volte icon
+02-06 15:12:16.787   528   659 D NetworkController.MobileSignalController(1)(0): matchCards mccMnc: 72402
+02-06 15:12:16.787   528   659 D NetworkController.MobileSignalController(1)(0): matchSimMcc mccMnc: 72402, mcc = 260
+02-06 15:12:16.788   528   659 D NetworkController.MobileSignalController(1)(0): matchCards mccMnc: 72402
+02-06 15:12:16.791 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad in: PAUSED
+02-06 15:12:16.792 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad
+02-06 15:12:16.795   619   836 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:57.473846,dur:1009.15,max:35.87,min:14.05
+02-06 15:12:16.798  1218  3013 D PowerHalWrapper: amsBoostNotify pid:11877,activity:androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity, package:com.example.dogglers, mProcessCreatePackcom.example.dogglers
+02-06 15:12:16.806 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49 in: DESTROYED
+02-06 15:12:16.807 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@76cdb49
+02-06 15:12:16.808 11877 11877 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@550cc5c
+02-06 15:12:16.809 11877 11958 D libMEOW : applied 1 plugins for [com.example.dogglers]:
+02-06 15:12:16.809 11877 11958 D libMEOW :   plugin 1: [libMEOW_gift.so]:
+02-06 15:12:16.817 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65 in: PRE_ON_CREATE
+02-06 15:12:16.818 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65
+02-06 15:12:16.831 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65 in: CREATED
+02-06 15:12:16.832 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65
+02-06 15:12:16.836 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65 in: STARTED
+02-06 15:12:16.837 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65
+02-06 15:12:16.840 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65 in: RESUMED
+02-06 15:12:16.840 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65
+02-06 15:12:16.841 11877 11877 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = null, this = DecorView@82434eb[]
+02-06 15:12:16.846 11877 11877 D ViewRootImpl[InstrumentationActivityInvoker$EmptyActivity]: hardware acceleration = true , fakeHwAccelerated = false, sRendererDisabled = false, forceHwAccelerated = false, sSystemRendererDisabled = false
+02-06 15:12:16.852 11877 11877 I InputTransport: Create ARC handle: 0x7ff837d0
+02-06 15:12:16.853 11877 11877 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@6392606, this = DecorView@82434eb[InstrumentationActivityInvoker$EmptyActivity]
+02-06 15:12:16.856 11877 11877 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@742358b in: STOPPED
+02-06 15:12:16.857 11877 11877 V ActivityScenario: Update currentActivityStage to STOPPED, currentActivity=com.example.dogglers.VerticalListActivity@742358b
+02-06 15:12:16.857 11877 11877 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@2a92ba, this = DecorView@290d34f[VerticalListActivity]
+02-06 15:12:16.860 11877 11877 D LifecycleMonitor: Lifecycle status change: com.example.dogglers.VerticalListActivity@742358b in: DESTROYED
+02-06 15:12:16.860 11877 11877 V ActivityScenario: Update currentActivityStage to DESTROYED, currentActivity=null
+02-06 15:12:16.866 11877 11877 D View    : [Warning] assignParent to null: this = DecorView@290d34f[VerticalListActivity]
+02-06 15:12:16.866 11877 11877 I InputTransport: Destroy ARC handle: 0x9fe50b40
+02-06 15:12:16.878   656   656 I BufferQueue: [com.example.dogglers/com.example.dogglers.VerticalListActivity#0](this:0xadf56000,id:3116,api:1,p:-1,c:-1) ~BufferQueueCore
+02-06 15:12:16.881   656  1008 I BufferQueue: [unnamed-656-3118](this:0xb0cee000,id:3118,api:0,p:-1,c:-1) BufferQueue core=(656:/system/bin/surfaceflinger)
+02-06 15:12:16.882   656  1008 I BufferQueueConsumer: [unnamed-656-3118](this:0xb0cee000,id:3118,api:0,p:-1,c:656) connect(C): consumer=(656:/system/bin/surfaceflinger) controlledByApp=false
+02-06 15:12:16.882   656  1008 I BufferQueueConsumer: [unnamed-656-3118](this:0xb0cee000,id:3118,api:0,p:-1,c:656) setConsumerName: unnamed-656-3118
+02-06 15:12:16.882   656  1008 I BufferQueueConsumer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1](this:0xb0cee000,id:3118,api:0,p:-1,c:656) setConsumerName: com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1
+02-06 15:12:16.882   656  1008 I BufferQueueConsumer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1](this:0xb0cee000,id:3118,api:0,p:-1,c:656) setDefaultBufferSize: width=720 height=1600
+02-06 15:12:16.883  1218  3333 I WindowManager: ***** PhoneWindowManager, focusChangedLw, newFocus=Token{7521a59 ActivityRecord{65cbea0 u0 com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity t900}}
+02-06 15:12:16.886   730   851 D AAL     : 02-06 03:12:16.734 BL= 181,ESS= 256, 02-06 03:12:16.768 BL= 182,ESS= 256, 02-06 03:12:16.818 BL= 181,ESS= 256, 02-06 03:12:16.852 BL= 180,ESS= 256, 02-06 03:12:16.886 BL= 179,ESS= 256,
+02-06 15:12:16.887 11877 11912 D Surface : Surface::connect(this=0x912ad000,api=1)
+02-06 15:12:16.887   656  1258 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#1](this:0xb0cee000,id:3118,api:1,p:11877,c:656) connect(P): api=1 producer=(11877:com.example.dogglers) producerControlledByApp=false
+02-06 15:12:16.888 11877 11912 D Surface : Surface::setBufferCount(this=0x912ad000,bufferCount=3)
+02-06 15:12:16.889 11877 11912 D Surface : Surface::allocateBuffers(this=0x912ad000)
+02-06 15:12:16.908  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():3227
+02-06 15:12:16.909  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 0, unlocked = true
+02-06 15:12:16.909  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1877 onStartInput(EditorInfo{inputType=0x0(NULL) imeOptions=0x0 privateImeOptions=null actionName=UNSPECIFIED actionLabel=null actionId=0 initialSelStart=-1 initialSelEnd=-1 initialCapsMode=0x0 hintText=null label=null packageName=com.example.dogglers fieldId=-1 fieldName=null extras=null}, false)
+02-06 15:12:16.910  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.shouldHideHeaderOnInitialState():4008 ShouldHideHeaderOnInitialState = false
+02-06 15:12:16.910  1833  1833 I GoogleInputMethodService: GoogleInputMethodService.updateDeviceLockedStatus():2087 repeatCheckTimes = 2, unlocked = true
+02-06 15:12:16.918  1218  2447 D PowerHalWrapper: <amsBoostResume> last:com.example.dogglers, next:com.motorola.launcher3
+02-06 15:12:16.924 11877 11912 D Surface : Surface::disconnect(this=0x80114000,api=1)
+02-06 15:12:16.925   656  1976 I BufferQueueProducer: [com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity#0](this:0xb0cd2000,id:3117,api:1,p:11877,c:656) disconnect(P): api 1
+02-06 15:12:16.934 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65 in: PAUSED
+02-06 15:12:16.936 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@cd33b65
+02-06 15:12:16.939  1218  2447 D PowerHalWrapper: amsBoostNotify pid:1674,activity:com.android.launcher3.CustomizationPanelLauncher, package:com.motorola.launcher3, mProcessCreatePackcom.example.dogglers
+02-06 15:12:16.939  1218  2447 D PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false
+02-06 15:12:16.939   636   687 I libPowerHal: [perfNotifyAppState] foreground:com.motorola.launcher3, pid:1674, uid:10086
+02-06 15:12:16.940   636   687 I UxUtility: notifyForegroundApp pack:com.motorola.launcher3, uid:10086
+02-06 15:12:16.940   636   687 I powerd  : [powerd_req] POWER_MSG_NOTIFY_STATE, pc:0, com.example.dogglers => com.motorola.launcher3
+02-06 15:12:16.945 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad in: STOPPED
+02-06 15:12:16.947 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad
+02-06 15:12:16.948 11877 11877 V PhoneWindow: DecorView setVisiblity: visibility = 4, Parent = android.view.ViewRootImpl@b705f2e, this = DecorView@287ea73[InstrumentationActivityInvoker$EmptyActivity]
+02-06 15:12:16.952   656  1976 I BufferQueue: [unnamed-656-3119](this:0xb0cc1000,id:3119,api:0,p:-1,c:-1) BufferQueue core=(656:/system/bin/surfaceflinger)
+02-06 15:12:16.952   656  1976 I BufferQueueConsumer: [unnamed-656-3119](this:0xb0cc1000,id:3119,api:0,p:-1,c:656) connect(C): consumer=(656:/system/bin/surfaceflinger) controlledByApp=false
+02-06 15:12:16.952   656  1976 I BufferQueueConsumer: [unnamed-656-3119](this:0xb0cc1000,id:3119,api:0,p:-1,c:656) setConsumerName: unnamed-656-3119
+02-06 15:12:16.953   656  1976 I BufferQueueConsumer: [com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#0](this:0xb0cc1000,id:3119,api:0,p:-1,c:656) setConsumerName: com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#0
+02-06 15:12:16.953   656  1976 I BufferQueueConsumer: [com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#0](this:0xb0cc1000,id:3119,api:0,p:-1,c:656) setDefaultBufferSize: width=720 height=1600
+02-06 15:12:16.956 22902 26319 D Surface : Surface::connect(this=0x76b28000,api=1)
+02-06 15:12:16.957   656  1976 I BufferQueueProducer: [com.motorola.launcher3/com.android.launcher3.CustomizationPanelLauncher#0](this:0xb0cc1000,id:3119,api:1,p:22902,c:656) connect(P): api=1 producer=(22902:com.google.android.googlequicksearchbox:search) producerControlledByApp=false
+02-06 15:12:16.958 22902 26319 D Surface : Surface::setBufferCount(this=0x76b28000,bufferCount=3)
+02-06 15:12:16.959 22902 26319 D Surface : Surface::allocateBuffers(this=0x76b28000)
+02-06 15:12:16.960 11877 11877 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad in: DESTROYED
+02-06 15:12:16.960 11877 11877 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.dogglers/.VerticalListActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.example.dogglers/androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity }, activity=androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity@96043ad
+02-06 15:12:16.963 11877 11877 D View    : [Warning] assignParent to null: this = DecorView@287ea73[InstrumentationActivityInvoker$EmptyActivity]
+02-06 15:12:16.964 11877 11877 I InputTransport: Destroy ARC handle: 0x7ff94000
+02-06 15:12:16.965  1674  1674 V PhoneWindow: DecorView setVisiblity: visibility = 0, Parent = android.view.ViewRootImpl@9138194, this = DecorView@6fa4901[CustomizationPanelLauncher]
+02-06 15:12:16.973 11877 11910 I TestRunner: finished: vertical_scrolling(com.example.dogglers.VerticalListTests)
